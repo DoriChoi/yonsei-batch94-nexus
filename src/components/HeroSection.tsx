@@ -16,6 +16,13 @@ const HeroSection = () => {
         <div className="text-center max-w-4xl mx-auto">
           {/* University Badge */}
           <div className="inline-flex items-center bg-white/10 backdrop-blur-sm rounded-full px-6 py-2 mb-8">
+            <img
+              src="/yonsei-symbol.png"
+              srcSet="/yonsei-symbol.png 1x, /yonsei-symbol@2x.png 2x"
+              sizes="(min-width: 768px) 24px, 24px"
+              alt="연세대학교 심벌"
+              className="h-6 w-6 rounded-full bg-white object-contain ring-1 ring-white/30 mr-3"
+            />
             <span className="text-accent font-semibold text-sm">연세대학교</span>
             <span className="mx-2 text-white/60">•</span>
             <span className="text-white/90 text-sm">1994년 입학</span>

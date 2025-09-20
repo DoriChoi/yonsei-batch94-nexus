@@ -30,9 +30,13 @@ const Header = () => {
       <div className="container flex h-16 items-center justify-between">
         {/* Logo */}
         <NavLink to="/" className="flex items-center space-x-2">
-          <div className="flex h-8 w-8 items-center justify-center rounded-full bg-primary text-primary-foreground font-bold text-sm">
-            Y94
-          </div>
+          <img
+            src="/yonsei-symbol.png"
+            alt="연세대학교 심벌"
+            className="h-10 w-10 rounded-full bg-white object-contain ring-1 ring-primary/20 shadow-sm"
+            srcSet="/yonsei-symbol.png 1x, /yonsei-symbol@2x.png 2x"
+            sizes="(min-width: 768px) 40px, 40px"
+          />
           <span className="font-bold text-lg">연세대 94학번 동기회</span>
         </NavLink>
 

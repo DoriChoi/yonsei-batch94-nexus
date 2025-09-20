@@ -12,10 +12,12 @@
   transition: filter 300ms;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  /* Yonsei Blue glow */
+  filter: drop-shadow(0 0 2em rgba(0, 62, 126, 0.7));
 }
 .logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  /* Lighter Yonsei Blue for React variant */
+  filter: drop-shadow(0 0 2em rgba(35, 121, 199, 0.7));
 }
 
 @keyframes logo-spin {

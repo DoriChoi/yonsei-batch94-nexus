@@ -8,9 +8,13 @@ const Footer = () => {
           {/* Logo and Description */}
           <div className="md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-              <div className="flex h-10 w-10 items-center justify-center rounded-full bg-primary text-primary-foreground font-bold">
-                Y94
-              </div>
+              <img
+                src="/yonsei-symbol.png"
+                srcSet="/yonsei-symbol.png 1x, /yonsei-symbol@2x.png 2x"
+                sizes="(min-width: 768px) 40px, 40px"
+                alt="연세대학교 심벌"
+                className="h-10 w-10 rounded-full bg-white object-contain ring-1 ring-white/30"
+              />
               <span className="font-bold text-xl">연세대 94학번 동기회</span>
             </div>
             <p className="text-secondary-foreground/80 mb-4 max-w-md">
